@@ -11,7 +11,8 @@ Size: 16580
 MD5sum: a6e2608a1fbda8c47d105335735a7628
 SHA1: 71c5eea3bbfc38c575269cffe3a77aab7d7ad5a3
 SHA256: 5294a02a1252b8e69f3dadfb98df878572c016cbe5492884209d974e4593af22
-Section: 杂七杂八
+Section: 工具
+Priority: optional
 Description: 在 14 Pro 系列上，隐藏未使用时的灵动岛，有些有强迫症的人有此需求，能理解但不支持！
 Author: Nathan
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -29,7 +30,8 @@ Size: 6976
 MD5sum: c0511a162505957ac6301e999ad933ee
 SHA1: 6a78d0e85ac8d5bb53812e637d6cf54a92425f5b
 SHA256: fad5ad5d4ece25c6d848720f941dc55cbf9225fdebc68b37b29e83e73a8aa5db
-Section: 杂七杂八
+Section: 控制中心
+Priority: optional
 Description: Five rows of settings arranged in the control center。控制中心排列五行设定。感谢来了老弟修复支持多巴胺。
 Author: 4nni3
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -49,6 +51,7 @@ MD5sum: d2daba49b620a68f11f52100fd669857
 SHA1: b5ddda61cb97193c481ff882f5c68f0bdf197e59
 SHA256: d1d352a7b7cd33984ec8581f0e618346f83d9401fd413f30d7e630b8c4a7b988
 Section: 控制中心
+Priority: optional
 Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
 Author: simon
 Icon: https://axs66.github.io/pro/icon/ccweathermodule.png
@@ -67,7 +70,8 @@ Size: 2471180
 MD5sum: cf4693cb8fa65e27400cc58459c12118
 SHA1: bfa0dfbffc331a9693ffb9e1f5dc10bc13800c1c
 SHA256: 4e9ad1a7e4ab48c88c91be25aa0b7e69af398e4df785f92a4fbc3d9ea257b3b9
-Section: Tweaks
+Section: 美化
+Priority: optional
 Description: ReachPlayer便捷访问音乐专辑
 Author: ETHN
 Icon: https://axs66.github.io/pro/icon/reachplayer.png
@@ -86,7 +90,8 @@ Size: 72178
 MD5sum: bdfe3ef662c7b75923246c270345d019
 SHA1: b43ff4d02161feb66a9a30d4c55a0e91adfbe1f7
 SHA256: 3efb8f747a89668348322a0cd29795c4d1414084e1ac6c697a8e24d65830d3f0
-Section: 冰蓝的插件
+Section: 美化
+Priority: optional
 Description: 灵动岛增加视频背景。
 Author: binglan
 Name: 动态岛
@@ -103,7 +108,8 @@ Size: 169234
 MD5sum: 76ccb80fb81da415b3affe3ac1d35f51
 SHA1: 72a01cd1d42c8c6ecb31ae83010b66757ba40e5b
 SHA256: 12b98d656507efe90d3ef0c0483bfbd83c72451c258f53acf304c66d039c9eb5
-Section: Tweaks
+Section: 美化
+Priority: optional
 Description: 灵动岛背景？
 Author: 冰蓝
 Name: DynamicFX
@@ -120,7 +126,8 @@ Size: 208688
 MD5sum: ebe4dd43bebc73e73866d03f7dbc4dac
 SHA1: 8f26997ef6dafe70a935936897f3a19fef951b08
 SHA256: 12b3158209d1abff40cc8ffd5ab621b75f0efadac390b9f437fc207df798b77d
-Section: Tweaks
+Section: 工具
+Priority: optional
 Description: Volume control for individual app
 Author: Brend0n <brendonjkding@126.com>
 Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.volumemixer
@@ -139,7 +146,7 @@ Size: 3618
 MD5sum: fe2aab073130081d1c772c0238d699d7
 SHA1: 0fc48c6c96d25a45f4dedb0676d77c29a005d271
 SHA256: 3559a183d94b38cc534feeb4098fbc1bccae22bd3e44ac8f7f743ccf403f74f6
-Section: Tweaks
+Priority: optional
 Description: An awesome MobileSubstrate tweak!
 Author: Charlie Leung
 Name: AudioManager
@@ -156,7 +163,8 @@ Size: 15420862
 MD5sum: cf51e38b2985912fb1c8b0ee39bce089
 SHA1: 7b71b1358d9e6338946144c4f529c6272e51e99b
 SHA256: f716b21cf694d5fc1b025151931472c6032fbb31ea53886f70c4892d59e9b91a
-Section: Tweaks
+Section: 美化
+Priority: optional
 Description: 液态玻璃
 Author: 一刀
 Name: 88液态玻璃插件 1.3.7-4
@@ -173,7 +181,8 @@ Size: 5322
 MD5sum: ebd36901cc889c644e3db39043ee3c2d
 SHA1: 2f10afeb002ff5b94bbfb0bf160ce9836f813bd0
 SHA256: 8a1a977572f934fece6b0f3e7e80885555ac8a23b913e0b6f91b35932112953b
-Section: Tweaks
+Section: 工具
+Priority: optional
 Description: 将启动 fv 浮窗的接口转发给 open 越狱版。以实现某些手势的联动。
 Author: charlie
 Name: floatingView
@@ -203,15 +212,16 @@ Maintainer: 苏苏
 Installed-Size: 628
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.opa334.ccsupport
-Filename: ./debs/com.susu.sumusicplayercc_1.0.1_iphoneos-arm64e.deb
-Size: 123100
-MD5sum: 2ac2531f57f1b06e6f53a9f5c91bbcac
-SHA1: 8543c87c6e2b65e3772e7efa8065d506b98b7e71
-SHA256: 4669c2f570fc2832d1d72b8b8e90bccb25d97a2008638b4b51d8b7a49de125f0
-Section: Tweaks
+Filename: ./debs/ss3×2播放器.deb
+Size: 123078
+MD5sum: 01fe7ebe176b416c07a3dd5d90b41700
+SHA1: 0b3e2ddc5d624e586307c472ea408424160b758f
+SHA256: 52428a619321569ac5995e67b1e2580f4e8c29a918e5b612e669ffc6685cf8ff
+Section: 控制中心
+Priority: optional
 Description: 控制中心音乐播放器
 Author: 苏苏
-Icon: https://huayuarc.github.io/icon/sumusicplayercc.jpg
+Icon: https://www.susubaby.top/images/sumusicplayercc.png
 Name: SuMusicPlayerCC
 
 Package: com.susu.sumusicplayercc
@@ -221,15 +231,16 @@ Maintainer: 苏苏
 Installed-Size: 628
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.opa334.ccsupport
-Filename: ./debs/ss3×2播放器.deb
-Size: 123078
-MD5sum: 01fe7ebe176b416c07a3dd5d90b41700
-SHA1: 0b3e2ddc5d624e586307c472ea408424160b758f
-SHA256: 52428a619321569ac5995e67b1e2580f4e8c29a918e5b612e669ffc6685cf8ff
-Section: Control Center (Modules)
+Filename: ./debs/com.susu.sumusicplayercc_1.0.1_iphoneos-arm64e.deb
+Size: 123100
+MD5sum: 2ac2531f57f1b06e6f53a9f5c91bbcac
+SHA1: 8543c87c6e2b65e3772e7efa8065d506b98b7e71
+SHA256: 4669c2f570fc2832d1d72b8b8e90bccb25d97a2008638b4b51d8b7a49de125f0
+Section: 控制中心
+Priority: optional
 Description: 控制中心音乐播放器
 Author: 苏苏
-Icon: https://www.susubaby.top/images/sumusicplayercc.png
+Icon: https://huayuarc.github.io/icon/sumusicplayercc.jpg
 Name: SuMusicPlayerCC
 
 Package: im.mjh.fakeperm
@@ -244,7 +255,8 @@ Size: 348306
 MD5sum: d202ba6ccd4254b65041e99e2d88c806
 SHA1: 222476eba2d98a36939513218204e2fdcfdea4cd
 SHA256: 7b01c25bb2954865ee3613dab698f98e17e21dd649540a25ac1cac84c3c9b68b
-Section: Tweaks
+Section: 工具
+Priority: optional
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
   .
   支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
@@ -272,7 +284,8 @@ Size: 12909296
 MD5sum: e08413a5999d1d01f7cbba15011486c7
 SHA1: faf88076272cd8fda468d72b0e7b5f0a6dfc8dc3
 SHA256: 1d09be4fbcb8d68aebd73442f8240e8604a08a1a3e9c141fc32906b2ca009888
-Section: Tweaks
+Section: 工具
+Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gpsmasterDp
 Description: GPS Master can fake your iOS device's GPS location like you are driving between two places.
  It also simulates moving between two points on the map. Of cause, GPS Master can change your APPs(Facebook、Twitter、Line、YouTube、Instagram、Uber、Lyft、Waze、Google Maps、Snapchat、TikTok、Messenger、etc...)' geolocation to anywhere you like. Specially, GPS joystick can control your role's location on the map in your AR/VR game like Pokemon GO. GPS定位大师，通过修改苹果手机的GPS定位，实现虚拟定位和模拟驾驶功能。ターゲティングの変更 バーチャルポジショニング.
@@ -294,7 +307,8 @@ Size: 375500
 MD5sum: 396cc883adcdd159fc359477c26eb77f
 SHA1: 72d0b708d7ab87aa3a49186cdbe6736c9a12e941
 SHA256: 8b521d31e1108e81a1d8ffc9a15c0b9c6b8c0a26b8306532fbd8f289f34a2e98
-Section: Tweaks
+Section: 工具
+Priority: optional
 Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
 Author: ARX8x
 Depiction: https://repo.cypwn.xyz/depiction/3195
