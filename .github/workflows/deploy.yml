@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate Packages Index
         run: |
-          dpkg-scanpackages -m ./debs /dev/null > Packages
+          dpkg-scanpackages -m ./debs ./override > Packages
           bzip2 -k -f Packages
 
       - name: Commit and Push
