@@ -1,0 +1,29 @@
+name: Update Repo
+
+on:
+  push:
+    paths:
+      - 'debs/**'
+      - 'Release'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dpkg
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2
+
+      - name: Generate Packages Index
+        run: |
+          dpkg-scanpackages -m ./debs /dev/null > Packages
+          bzip2 -k -f Packages
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.bz2
+          git commit -m "Auto-update APT Packages index" || exit 0
+          git push
