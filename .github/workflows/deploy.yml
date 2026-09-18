@@ -5,6 +5,7 @@ on:
     paths:
       - 'debs/**'
       - 'Release'
+      - 'override'
 
 jobs:
   build:
