@@ -224,25 +224,6 @@ Author: 苏苏
 Icon: https://www.susubaby.top/images/sumusicplayercc.png
 Name: SuMusicPlayerCC
 
-Package: com.susu.sumusicplayercc
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏
-Installed-Size: 628
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.opa334.ccsupport
-Filename: ./debs/com.susu.sumusicplayercc_1.0.1_iphoneos-arm64e.deb
-Size: 123100
-MD5sum: 2ac2531f57f1b06e6f53a9f5c91bbcac
-SHA1: 8543c87c6e2b65e3772e7efa8065d506b98b7e71
-SHA256: 4669c2f570fc2832d1d72b8b8e90bccb25d97a2008638b4b51d8b7a49de125f0
-Section: 控制中心
-Priority: optional
-Description: 控制中心音乐播放器
-Author: 苏苏
-Icon: https://huayuarc.github.io/icon/sumusicplayercc.jpg
-Name: SuMusicPlayerCC
-
 Package: im.mjh.fakeperm
 Version: 8.6.0
 Architecture: iphoneos-arm64e
@@ -295,41 +276,4 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gpsmasterD
 Dev: joebruce
 Name: GPS Master(GPS定位大师)-Fake Navigation,Location Spoofer
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: xyz.cypwn.systeminfo
-Version: 2.7.2-2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/xyz.cypwn.systeminfo_2.7.2-2_iphoneos-arm64e.deb
-Size: 375500
-MD5sum: 396cc883adcdd159fc359477c26eb77f
-SHA1: 72d0b708d7ab87aa3a49186cdbe6736c9a12e941
-SHA256: 8b521d31e1108e81a1d8ffc9a15c0b9c6b8c0a26b8306532fbd8f289f34a2e98
-Section: 工具
-Priority: optional
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
-Author: ARX8x
-Depiction: https://repo.cypwn.xyz/depiction/3195
-Icon: https://repo.cypwn.xyz/packages/SystemInfo-Rootless/icon.png
-Name: System Info
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3195
-
-Package: xyz.xninja.systeminfo
-Version: 2.7.2-2
-Architecture: iphoneos-arm64e
-Maintainer: ARX8x
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, oldabi
-Filename: ./debs/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm64e.deb
-Size: 375400
-MD5sum: a0bf2546e166e89fd5997b0f6cc62c47
-SHA1: eef24c83a09a265e1ed9602769d8d7f501e54bb9
-SHA256: 0bd7d4ee1b65246535913d9d9e0f0a8930ab633dd0ee13aa68fc2c931b253899
-Section: Tweaks
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
-Author: ARX8x
-Depiction: https://arx8x.github.io/depictions/systeminfo.html
-Name: System Info
 
