@@ -94,6 +94,29 @@ Icon: https://axs66.github.io/pro/icon/reachplayer.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/reachplayer/js.json
 
+Package: com.axs.ios16dao
+Version: 5.2.0-254
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 700
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/ios16dao_5.2.0-254_隐根.deb
+Size: 123986
+MD5sum: 3bf77b9a605c474a3889179668b3817b
+SHA1: 1e45ca0dcaa8999db773b3ed64531804b7a2e01a
+SHA256: a2f3d6dacf482f72be9867c77a6081ed94d17ee719c20d328e594cdfeddadd6b
+Section: 灵动岛
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。集成授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+Name: ios16~17动态岛
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
 Package: com.binglan.dongtaidao
 Version: 2.0.5
 Architecture: iphoneos-arm64e
@@ -220,6 +243,55 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU防温控
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.nx.accode
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 204
+Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
+Filename: ./debs/c_acc-arm64e.deb
+Size: 19162
+MD5sum: 6042093be5cf12305d158cac6bdc7661
+SHA1: 82918392e784774f3e0231b2a8b59f2565fb93e7
+SHA256: c84f1e18b3dcda3ec7248863aad1eaeb1b843483f54b72d2d2e0e971953cf4aa
+Section: System
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: Crassna
+Name: stheno
+
+Package: com.nx.stheno
+Version: 0
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/c_stheno-arm64e.deb
+Size: 527972
+MD5sum: aee8ba1ef41d571566b5dcc93043b456
+SHA1: 825a96cd98548f907c1f71d99235b5c6e8025a60
+SHA256: 08fb76f62559270cad22c04c5b798f15f0299616cdeaefcddd953ad1576140b5
+Section: Tweaks
+Description: Medusa,Jump Whenever。
+Author: Crassna
+Name: Stheno
+
+Package: com.nx.stheno
+Version: 0
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/c_stheno-arm64.deb
+Size: 530206
+MD5sum: d325c470fc68d5131e5412f1f6222c43
+SHA1: dc2b1e9c0baecaf3cb5fdd9b76e6366732d28af7
+SHA256: 34716504b92b45712e559f9242bc4e171b3464b4c70b6a47a782085b7076cf47
+Section: Tweaks
+Description: Medusa,Jump Whenever。
+Author: Crassna
+Name: Stheno
 
 Package: com.opa334.crane
 Version: 1.3.17-2
