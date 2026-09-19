@@ -9,7 +9,8 @@ Size: 375644
 MD5sum: e62351ebb8415fc4a4c49ffefece0bad
 SHA1: b9665cf34a8fa50a8ae3e5588af655556294ce3c
 SHA256: 664006edd192cd1cd8c3ad89d4e731ba97c188e2e6445515e9b99838694d5325
-Section: rootless修复插件
+Section: 工具
+Priority: optional
 Description: Display all system information of iOS。显示 iOS 所有系统信息，不用装Legacy arm64e Support_________仅测试，有问题请卸载
 Author: ARX8x 来了老弟
 Name: System Info 系统信息-rootless
